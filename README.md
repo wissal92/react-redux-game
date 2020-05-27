@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Introduction
+This folder contains my implementation of the Would You Rather app. This is an assessment project for the Udacity's React-redux course, part of the React Nanodegree Program.
 
-## Available Scripts
+## Requirements
+- [Node.js](https://nodejs.org)
 
-In the project directory, you can run:
+## Installation
+Here is how you can load the application onto your local machine:
 
-### `yarn start`
+1. Install node.js if you do not have it yet. It comes with npm(node package manager). Make sure that you install node with the PATH variable so you can run node anywhere in your command prompt/terminal.
+2. Extract all the files and folders from the zip, add the whole extracted file to a workspace(like visual studio code).
+3. In your command prompt/terminal, change directory to the project root.
+4. In order to install, run: `npm install`
+5. to start the react app, run: `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Application will start in your default browser at: `localhost:3000`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Folder structure
+|── node_modules            # All project dependencies modules are installed here
+├── public                  # built app files to be hosted (index.html etc)
+├── package.json            # all project dependencies, scripts to build/run the app
+├── src                     # Folder to store all source files 
+│   ├── actions             # Redux actions of the app
+│   ├── assets              # to store icons, images etc used in app
+|   |── components          # React UI components of the app
+|   |── middleware          # handles asynchronous actions of the app
+│   ├── reducers            # Reducer and store of the app
+│   ├── utils               # Dataserver file (for now just data json with dummy APIs)
+│   └── index.js            # When the application starts this is the first page that is loaded         
+└── README.md               # this file, instructions for building/using the app
 
-### `yarn test`
+## Credits
+First, let us take this opportunity to thank all the creative minds for their great products and hard work.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Name | License
+------------ | -------------
+[React JS](https://github.com/facebook/react) | [LICENSE](https://github.com/facebook/react/blob/master/LICENSE)
+[React Redux](https://github.com/reduxjs/react-redux) | [LICENSE](https://github.com/reduxjs/react-redux/blob/master/LICENSE.md)
+[React Thunk](https://github.com/reduxjs/redux-thunk) | [LICENSE](https://github.com/reduxjs/redux-thunk/blob/master/LICENSE.md)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Fonts & Images
+- Google Fonts: http://www.google.com/fonts
+- Avatar Set: from [www.flaticon.com](http://www.flaticon.com/)

@@ -1,0 +1,137 @@
+.home{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+.home-h1{
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home-img{
+    width: 6rem;
+    height: auto;
+}
+
+.home-btn-div{
+    display: flex;
+    width: 100%;
+}
+
+.home-btn {
+    padding: 1rem 1.5rem;
+    width: 49%;
+    margin:  2rem 1.3rem 2rem 0;
+    background-color:#37d7e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second {
+    background-color: #7a32c2;
+    margin-right: 0;
+}
+
+.home-cart{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.home-user{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #7a32c2;
+}
+
+.home-h3{
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+.home-p{
+    font-size: 1.5rem;
+}
+
+.home-poll{
+    width: 40%;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: #7a32c2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home-img{
+    width: 6rem;
+    height: auto;
+}
+
+.home-btn-div{
+    display: flex;
+    width: 100%;
+}
+
+.home-btn {
+    padding: 1rem 1.5rem;
+    width: 49%;
+    margin:  2rem 1.3rem 2rem 0;
+    background-color:#37d7e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second {
+    background-color: #7a32c2;
+    margin-right: 0;
+}
+
+.home-cart{
+    width: 100%;
+    border: 1px solid lightgrey;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.home-user{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #7a32c2;
+}
+
+.home-h3{
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+.home-p{
+    font-size: 1.5rem;
+}
+
+.home-poll{
+    width: 40%;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: #7a32c2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}

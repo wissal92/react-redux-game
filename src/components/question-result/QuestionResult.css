@@ -1,0 +1,30 @@
+.questionResult-fill{
+     width: 100%;
+     border: 1px solid lightgrey;
+     height: 2rem;
+     position: relative;
+}
+ 
+.questionResult-span{
+     position: absolute;
+     transform: translateY(-50%, 50%);
+     font-size: 1rem;
+     color: #7a32c2;
+     font-weight: bold;
+}
+ 
+.questionResult-color{
+     background-color: #37d7e6;
+     height: 2rem;
+}
+ 
+.questionResult-p{
+     text-align: end;
+}
+ 
+.questionResult-h4{
+     text-align: start;
+     margin-top: 1rem;
+     font-size: 2rem;
+     font-weight: 300;
+}

@@ -1,0 +1,19 @@
+.question-answer-div{
+    display: block;
+    font-size: 1.3rem;
+}
+
+.question-answer-div label {
+    margin-left: .5rem;
+}
+
+.question-answer-btn{
+    padding: 1rem 1.5rem;
+    width: 50%;
+    margin:  2rem 1.3rem 2rem 0;
+    background-color: #7a32c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
